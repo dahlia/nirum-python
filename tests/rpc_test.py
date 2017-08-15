@@ -1,7 +1,7 @@
 import json
 
 from fixture import BadRequest, MusicService, Unknown
-from pytest import fixture, raises, mark
+from pytest import fixture, mark, raises
 from six import text_type
 from werkzeug.test import Client as TestClient
 from werkzeug.wrappers import Response
